@@ -1,0 +1,14 @@
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.board{
+    border: 5px  solid rgb(187, 162, 36);
+    padding: 3px;
+    box-sizing: border-box;
+    border-style: inset;
+    box-shadow: 8px 5px 5px rgb(33, 113, 157);
+    margin: auto;
+}

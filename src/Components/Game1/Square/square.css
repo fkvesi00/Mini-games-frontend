@@ -1,0 +1,31 @@
+.square {
+    background: white;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height:70px;
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+    width: 70px;
+    border-radius: 20%;
+    box-shadow: 7px 4px 5px rgb(31, 16, 16);
+    color:rgb(0, 0, 0);
+}
+
+.square:focus {
+    outline: none;
+}
+
+.square:hover{
+    background-color:rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+  
