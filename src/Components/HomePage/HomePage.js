@@ -26,7 +26,7 @@ class HomePage extends React.Component {
         })
         return(
             <div className='homePage'>
-                <p style={{display:'flex',justifyContent:'center'}}>{`Have fun playing ${this.props.userName}`}</p>
+                <h3 className="cool-header">{`Have fun playing ${this.props.userName}`}</h3>
                 <SearchBox onSearchChange={this.onSearchChange}/>
         
                 <div className='cardList'>

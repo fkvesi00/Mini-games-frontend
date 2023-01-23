@@ -6,6 +6,9 @@ import NavBar from './Components/NavBar/NavBar';
 import SignIn from './Components/SignIn/SignIn';
 import Title from './Components/TItle/Title';
 import Register from './Components/Register/Register';
+import Particle from './Components/Particles/Particle';
+
+
 
 class App extends Component{
   constructor(){
@@ -17,6 +20,7 @@ class App extends Component{
       }
     }
   }
+
 
   loadUser = (userName) => {
     this.setState({user:{
@@ -32,6 +36,7 @@ class App extends Component{
     return (
       
       <>
+      <Particle/>
       <NavBar routeChange={this.onRouteChange} route={this.state.route}/>
       <Title/>
       {(this.state.route==='home')?

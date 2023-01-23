@@ -4,3 +4,24 @@
     width: 80%;
     margin: auto;
 }
+
+.homePage > .cool-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.cool-header {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #000;
+    width: 50%;
+  }
